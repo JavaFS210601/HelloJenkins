@@ -21,7 +21,7 @@ public class HelloServlet extends HttpServlet {
 		
 		PrintWriter pw = res.getWriter(); //this is how we write to our Response Object
 		
-		pw.print("<h1>Hello from your doGet method</h1>"); //use the PrintWriter to write some HTML
+		pw.print("<h1>Hello Jenkins! You are so useful girl</h1>"); //use the PrintWriter to write some HTML
 		
 		res.setStatus(200); //successful status code - optional, but good to show it working in postman/in general
 		
